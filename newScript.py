@@ -72,8 +72,8 @@ def write_to_csv(output_file, data):
                         })
 
 if __name__ == "__main__":
-    input_file = 'nmap_output.txt'
-    output_file = 'output.csv'
+    input_file = 'input.txt'
+    output_file = 'output_2.csv'
 
     with open(input_file, 'r') as file:
         nmap_output = file.readlines()
